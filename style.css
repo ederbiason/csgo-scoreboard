@@ -7,7 +7,7 @@
 
 body {
     min-width: none;
-    background-image: url("https://dmarket.com/blog/best-csgo-wallpapers/CS-GO-wallpaper-HD-art_hue3ed7aeab8fceb3ccf3a35de14fc82fb_1114369_1920x1080_resize_q75_lanczos.jpg");
+    background-image: url("assets/background.jpg");
     background-color: #111;
     background-size: cover;
     background-repeat: no-repeat;
