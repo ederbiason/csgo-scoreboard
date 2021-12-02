@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CS:GO Scoreboard</title>
+</head>
+
+<body>
+    <h1>Scoreboard</h1>
+
+    <div class="main-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Kills</th>
+                    <th>Assistências</th>
+                    <th>Mortes</th>
+                    <th>Pontos</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+            </tbody>
+        </table>
+        <div class="manipularJogadores">
+            <div class="addJogador"> 
+                <h2>Novo Jogador</h2>
+                <input class="nome" type="text" placeholder="Nome do Jogador" id="inputNome"></input>
+                <input class="foto" type="text" placeholder="Url da Foto" id="inputFoto"></input> <br>
+                <button id="botaoInserir" onclick="addJogador()">Inserir</button>
+            </div>
+            <div class="remJogador">
+                <h2>Remover Jogador</h2>
+                <input class="nome" type="text" placeholder="Nome do Jogador" id="remover"></input> <br>
+                <button id="botaoRemover" onclick="removerJogador()">Remover</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
