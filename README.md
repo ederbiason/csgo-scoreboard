@@ -42,6 +42,8 @@
 ## :art: Layout
 <div align="center"; diplay= "flex"; flex-direction= "row">
     <img src="https://media.giphy.com/media/v1S6qmynXqz4HQ1jAh/giphy.gif">
+
+    For a better view of the project, access this CodePen: https://codepen.io/eder-biason/full/xxLrRjd
 </div>
 
 ## :memo: License
